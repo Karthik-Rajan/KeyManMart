@@ -5,8 +5,8 @@
   "main": "app.js",
   "preferGlobal": true,
   "scripts": {
-    "preinstall" : "npm install -g lerna react-scripts && lerna bootstrap",
-    "start": "lerna run start"
+    "preinstall" : "npm install -g lerna react-scripts",
+    "start": "lerna bootstrap && lerna run start"
   },
   "keywords": [
     "Node",
