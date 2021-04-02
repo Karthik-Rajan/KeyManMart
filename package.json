@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "preferGlobal": true,
   "scripts": {
     "start": "lerna run start"
   },
