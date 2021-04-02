@@ -4,7 +4,7 @@
     "description": "",
     "main": "app.js",
     "scripts": {
-      "start": "lerna run --parallel dev"
+      "start": "lerna run start"
     },
     "keywords": [
       "Node",
