@@ -1,21 +1,19 @@
 {
-    "name": "kmm",
-    "version": "1.0.0",
-    "description": "",
-    "main": "app.js",
-    "scripts": {
-      "start": "lerna run start"
-    },
-    "keywords": [
-      "Node",
-      "React"
-    ],
-    "author": "Karthik & Ahmed",
-    "license": "ISC",
-    "devDependencies": {
-      "lerna": "^3.22.1"
-    },
-    "dependencies": {
-    }
-  }
-  
+  "name": "kmm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "lerna run start"
+  },
+  "keywords": [
+    "Node",
+    "React"
+  ],
+  "author": "Karthik & Ahmed",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "dependencies": {}
+}
