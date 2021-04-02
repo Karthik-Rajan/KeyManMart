@@ -5,6 +5,7 @@
   "main": "app.js",
   "preferGlobal": true,
   "scripts": {
+    "preinstall" : "npm install -g lerna",
     "start": "lerna run start"
   },
   "keywords": [

@@ -4,7 +4,6 @@
   "description": "Key Man Mart - WEB",
   "private": true,
   "main": "src/index.js",
-  "preferGlobal": true,
   "dependencies": {
     "@material-ui/core": "4.10.0",
     "@material-ui/icons": "^4.9.1",
@@ -41,6 +40,7 @@
     "typescript": "3.9.3"
   },
   "scripts": {
+    "preinstall" : "npm install -g react-scripts",
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test --env=jsdom",
