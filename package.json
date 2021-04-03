@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "preinstall" : "rm -rf node_modules/ && rm -rf package-lock.json && set NODE_OPTIONS=--max_old_space_size=819200 && npm install -g lerna react-scripts",
+    "preinstall" : "rm -rf node_modules/ && rm -rf package-lock.json && export NODE_OPTIONS=--max_old_space_size=819200 && npm install -g lerna react-scripts",
     "start": "lerna bootstrap && lerna run start"
   },
   "keywords": [
