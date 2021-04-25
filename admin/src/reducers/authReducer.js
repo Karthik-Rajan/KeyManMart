@@ -11,10 +11,15 @@ export default (state = [], action) => {
                 ...state,
                 loggedIn: action.data
             }
-        case 'LOGOUT':
+        case 'REGISTER':
             return {
                 ...state,
                 loggedIn: action.data
+            }
+        case 'LOGOUT':
+            return {
+                ...state,
+                loggedOut: action.data
             }
         case 'ERR':
             return {
